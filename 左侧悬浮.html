@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>左侧悬浮</title>
+</head>
+<style>
+*{ margin:0; padding:0;}
+.box{ width:165px; height:436px;  position:fixed; top:50px;bottom:0px; right:0px;}
+#top{background:url(images/demo2/fdTop.png) no-repeat; width:165px; height:169px;}
+#top p{ font-size:14px; text-indent:30px; color:#fff;}
+.clearfix::after{ content:''; display:block; clear:both;}
+#bottom{background:url(images/demo2/fdBottom.png) no-repeat 18px; width:130px; height:260px;}
+.title{ display:block; background:url(images/demo2/qq.png) no-repeat 0px center; width:100px; height:40px; text-indent:2em; margin-left:25px; color:#fff; border-bottom:1px solid #B40A0D; line-height:35px; font-size:14px;}
+#bottom p{color: #fff;
+font-size: 14px;
+margin: 5px 0px 0px 32px;}
+#bottom img{ margin-left:65px;}
+</style>
+<body>
+<div class="box">
+	<div id="top" >
+    		<img  clsss="img1" src="images/demo2/close.png"/ style=" margin-left:100px;">
+            <img  clsss="img2 clearfix" src="images/demo2/ewm.png"  style="margin:10px 0px 0px 32px; display:block;"/>
+            <p>微信优惠购票</p>
+    </div>
+    <div id="bottom" >
+    		<a class="title"> 景区咨询</a>
+            <a class="title"> 景区咨询</a>
+            <a class="title"> 景区咨询</a>
+            <a class="title"> 景区咨询</a>
+            <p>景区连锁咨询</p>
+            <p>13787021314</p>
+            <img src="images/demo2/fdToTop.png"/>
+            <p style="text-indent:2em;">TOP</p>
+    </div>
+</div>
+</body>
+</html>
